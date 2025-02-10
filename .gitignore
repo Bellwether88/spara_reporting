@@ -1,7 +1,14 @@
+# SPDX-FileCopyrightText: 2025 Yansheng Wang <ywang889@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Mac
+*.DS_Store
 
 # C extensions
 *.so

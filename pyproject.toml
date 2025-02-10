@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2025 Yansheng Wang <ywang889@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[tool.poetry]
+name = "spara-reporting"
+version = "0.1.0"
+description = "S-parameter post-processing and reporting"
+authors = ["Yansheng Wang"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+reuse = "^5.0.2"
+pre-commit = "^4.1.0"
+mkdocs = "^1.6.1"
+mkdocstrings-python = "^1.14.6"
+mkdocs-material = "^9.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
